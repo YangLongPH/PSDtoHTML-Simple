@@ -3,12 +3,69 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>PSD->HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="psd_29052018.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="psd_29052018.js"></script>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div id="Header">
+        <span class="HeaderText">
+            <span class="HeaderText1">
+                <span>Meet </span><strong>Brandi!</strong>
+            </span><br>
+            <span class="HeaderText2">/creative </span><span class="HeaderText2-1">one page template.</span><br>
+            <canvas id="Canvas1" width="40" height="20"">
+            </canvas>
+            <script>
+                var c = document.getElementById("Canvas1");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0,13);
+                ctx.lineTo(20,13);
+                ctx.strokeStyle = '#0b956b';
+                ctx.stroke();
+            </script>
+            <span class="HeaderText3">We are a team of professionals</span>
+            <canvas id="Canvas2" width="40" height="20"">
+            </canvas>
+            <script>
+                var c = document.getElementById("Canvas2");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(20,13);
+                ctx.lineTo(40,13);
+                ctx.strokeStyle = '#0b956b';
+                ctx.stroke();
+            </script>
+            <br>
+        </span><br>
+        <span class="SocialNetwork">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-dribbble"></i>
+        </span>
+    </div>
+    <div id="TopHeader">
+        "TopHeader"
+    </div>
+    <div id="Features">
+        "Features"
+    </div>
+    <div id="Works">
+        "Works"
+    </div>
+    <div id="Team">
+        "Team"
+    </div>
+    <div id="FunFacts">
+        "FunFacts"
+    </div>
+    <div id="LDiscuss">
+        "LDiscuss"
+    </div>
+    <div id="Footer">
+        "Footer"
+    </div>
 </body>
 </html>
