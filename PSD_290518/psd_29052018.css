@@ -1,4 +1,13 @@
-html, body {
+html{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: 'Kanit', sans-serif;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	width: 100%;
 	height: 100%;
 }
@@ -10,6 +19,7 @@ html, body {
 	background-image: url("Documents/psd29052018-Header-BackGround.png");
 	background-size: cover;
 	
+	/*border: 4px solid yellow;*/
 }
 
 .HeaderMenu{
@@ -21,40 +31,43 @@ html, body {
 	float: left;
 }
 
-.font-pacifico{
-	 font-family: Pacifico;
-	 font-size: 28px;
-}
-
 .RightHeaderMenu{
-	margin-top: 19px;
+	/*margin-top: 19px;*/
 	margin-right: 150px;
 	color: white;
 	float: right;
 }
 
-ul {
+.HeaderUl {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgba(16,31,106,0.2);
+
+    /*border: 1px solid white;*/
 }
 
-li {
+.HeaderLi {
+
     float: left;
+
 }
 
-li a {
+.HeaderA{
+	line-height: 100%;
+    /*border: 1px solid red;*/
+
     display: block;
     color: white;
     text-align: center;
+    /*padding-top: 14px;*/
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.HeaderA:hover:not(.active) {
+    /*border-top: 2px solid #32b0ee;*/
 }
 
 .active {
@@ -66,26 +79,35 @@ li a:hover:not(.active) {
 	filter: opacity(100%);
 	font-family: Calibri;
 	color: white;
-	padding-top: 280px;
+	/*padding-top: 280px;*/
+	padding-top: 20%;
 	text-align: center;
 
+	/*border: 4px solid ;*/
 }
 
 .HeaderText1{
-
 	font-size: 60px;
+
+	/*border: 4px solid red;*/
 }
 
 .HeaderText2{
 	color: #0b956b;
 	font-size: 40px;
+
+	/*border: 4px solid green;*/
 }
 .HeaderText2-1{
 	font-size: 40px;
+
+	/*border: 4px solid violet;*/
 }
 
 .HeaderText3{
 	font-size: 20px;
+
+	/*border: 4px solid blue;*/
 }
 
 .SocialNetwork{
@@ -97,30 +119,53 @@ li a:hover:not(.active) {
 	padding-top: 55px;
 	text-align: center;
 	
+	/*border: 4px solid orange;*/
 }
 
 #Features{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	width: 100%;
 	height: 70%;
 	background-color: #f4f7f9;
-	border-style: solid;
-	border-color: green;
+	
+	/*border: 4px solid pink;*/
 }
 
 .FeaturesText{
-	margin-top: 50px;
+	padding-top: 50px;
 	width: 100%;
 	height: 30%;
 	color: #0eb493;
 	font-size: 30px;
 	font-weight: bold;
-	font-family: "Maven Pro";
+	/*font-family: "Maven Pro";*/
 	text-align: center;
+
+	/*border: 4px solid black;*/
 }
 
-.Hype{
+.HypeLeft{
+	font-family: arial;
 	opacity: 0.1;
 	color: black;
+	float: left;
+	margin-left: 540px;
+}
+
+/*.far{
+	line-height: 60px;
+	color: black;
+	opacity: 0.2;
+	font-size: 20px;
+}*/
+
+.HypeRight{	
+	font-family: arial;
+	opacity: 0.1;
+	color: black;
+	float: right;
+	margin-right: 540px;
 }
 
 .FeaturesSections{
@@ -130,7 +175,7 @@ li a:hover:not(.active) {
 }
 
 
-.fas{
+/*.fas{
 	width: 40px;
 	height: 30px;
 
@@ -142,7 +187,7 @@ li a:hover:not(.active) {
 
 	border-radius: 50%;
 	border: 2px solid #0eb493;
-}
+}*/
 
 .FeaturesSectionTitle{
 	width: 80%;
@@ -162,20 +207,29 @@ li a:hover:not(.active) {
 .FeaturesSection{
 	margin-left: 10px;
 	margin-right: 10px;
+
 }
 
 .FeaturesDot{
+	width: 100%;
+	/*height: 100%;*/
+	padding-top: 50px;
+	/*padding-bottom: 50px;*/
 	text-align: center;
+
+	/*border: 4px solid violet;*/
 }
 
 .Circle{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+
 	width: 7px;
 	height: 7px;
 	display: inline-block;
 
 	border-radius: 50%;
 	border: 1px solid #d0d2d4;
-	border-color: #d0d2d4;*/
 }
 
 .Clear{
@@ -183,37 +237,314 @@ li a:hover:not(.active) {
 }
 
 #Works{
-	/*margin: 1% 1% 1% 1%;*/
-	padding: 0% 0% 0% 0%;
-	border-style: solid;
-	border-color: red;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 120%;
+	text-align: center;
+
+	/*border: 4px solid yellow;*/
 }
 
 .WorkText{
 	opacity: 0.8;
 	font-size: 20px;
-	color: black;margin-right: 170px;
+	color: black;
+	margin-right: 170px;
 	margin-left: 170px;
 	display: block;
 }
 
+.WorkFilter{
+	height: 15%;
+	/*display: block;*/
+}
+
+.WorkUl {
+	margin: 0 0 0 0;
+	height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    /*Center Text*/
+    display: flex;
+    flex-wrap: wrap; /* Optional. only if you want the items to wrap */
+    justify-content: center; /* For horizontal alignment */
+    align-items: center; /* For vertical alignment */
+
+}
+
+.WorkLi {
+	/*display: block;*/
+    float: left;
+}
+
+.WorkA{
+	/*line-height: 100%;*/
+	
+    /*display: block;*/
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    /*padding-top: 14px;*/
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+.WorkImgs{
+	width: 100%;
+	height: 60%;
+}
+
+.WorkImgTable{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.WorkImgRow{
+	display: table-row;
+}
+
+.WorkImgCell{
+	height: 50%;
+	width: 25%;
+	
+	/*background-image: url("psd29052018-WorkImgs-8.png");*/
+	
+	background-size: cover;
+	display: table-cell;
+}
+
 #Team{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 120%;
+	text-align: center;
 	/*margin: 1% 1% 1% 1%;*/
-	border-style: solid;
-	border-color: blue;
+	/*border: 4px solid yellow;*/
 }
+
+.TeamSection{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 40%;
+
+	/*border: 4px solid red;*/
+}
+
+.TeamsText{
+	margin: 0 0 0 0;
+	/*padding: 0 0 0 0;*/
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	color: #0eb493;
+	font-size: 30px;
+	font-weight: bold;
+	/*font-family: "Maven Pro";*/
+	text-align: center;
+
+	/*border: 4px solid black;*/
+}
+
+.TeamText{
+	/*margin: 0 0 0 0;*/
+	padding: 0 0 0 0;
+	opacity: 0.8;
+	font-size: 20px;
+
+	color: black;
+	margin-right: 170px;
+	margin-left: 170px;
+	display: block;
+}
+
+.TeamImgs{
+	margin: 0 0 0 0;
+	/*padding: 0 0 0 0;*/
+	padding-right: 150px;
+	padding-left: 150px;
+	width: 77%;
+	height: 47%;
+
+	/*border: 4px solid green;*/
+}
+
+.TeamImgTable{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+	width: 100%;
+	height: 100%;
+	display: table;
+	/*border: 4px solid aqua;*/
+}
+
+.TeamImgRow{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+
+	display: table-row;
+	/*padding-right: 20px;*/
+
+	/*border: 4px solid black;*/
+}
+
+.TeamImgCell{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	/*height: 10%;
+	width: 10%;*/
+	
+	/*margin-left: 10px;*/
+	/*background-image: url("psd29052018-WorkImgs-8.png");*/
+	
+	background-size: 90% 80%;
+	background-repeat: no-repeat;
+	background-position: center; 
+
+	display: table-cell;
+	/*border: 4px solid pink;*/
+}
+
+.TeamName{
+	width: 100%;
+	margin: 0 0 0 0;
+	/*padding-top: 10px;*/
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: black;
+	/*border: 4px solid black;*/
+	display: inline-block;
+}
+
+.TeamJob{
+	font-size: 70%;
+	width: 100%;
+	margin: 0 0 0 0;
+	/*padding-top: 10px;*/
+	padding-bottom: 10px;
+	opacity: 0.56;
+	color: black;
+	/*border: 4px solid yellow;*/
+	display: inline-block;
+}
+
+.TeamDot{
+	width: 100%;
+	margin: 0 0 0 0;
+	/*padding: 0 0 0 0;*/
+	padding-top: 50px;
+
+	text-align: center;
+	/*border: 4px solid blue;*/
+}
+
 #FunFacts{
-	/*margin: 1% 1% 1% 1%;*/
-	border-style: solid;
-	border-color: red;
+	height: 80%;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	
+	/*background-color: #062033;*/
+	background-image: url("Documents/psd29052018-FunFacts-BackGround-2.png");
+	background-size: cover;
+
+	/*border: 4px solid violet;*/
 }
+
+.FunFactsOpacity{
+	height: 100%;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	
+	/*opacity: 0.8;*/
+	/*background-color: #062033;*/
+    background-color: rgba(6,32,51,0.8);
+
+	/*border: 4px solid white;*/
+}
+
+.FunFactSection{
+	margin: 0 0 0 0;
+	/*padding: 0 0 0 0;*/
+	padding-right: 150px;
+	padding-left: 150px;
+	width: 77%;
+	height: 47%;
+
+	/*border: 4px solid green;*/
+}
+
+.FunFactTable{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+	width: 100%;
+	height: 100%;
+	display: table;
+	/*border: 4px solid red;*/
+}
+
+.FunFactRow{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+
+	display: table-row;
+	/*padding-right: 20px;*/
+
+	/*border: 4px solid black;*/
+}
+
+.FunFactCell{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+	color: white;
+	text-align: center;
+	
+	background-size: 90% 80%;
+	background-repeat: no-repeat;
+	background-position: center; 
+
+	display: table-cell;
+	/*border: 4px solid pink;*/
+}
+
+.FunFactIcon{
+	margin-top: 20px;
+	margin-left: 80px;
+	width: 80px;
+	height: 67px;
+
+	color: white;
+	font-size: 30px;
+    text-align: center;
+	padding-top: 10px;
+	display: block;
+
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.FunFactNumber{
+	font-size: 50px;
+}
+
 #LDiscuss{
-	/*margin: 1% 1% 1% 1%;*/
-	border-style: solid;
-	border-color: blue;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+	border: 4px solid aqua;
 }
 #Footer{
-	/*margin: 1% 1% 1% 1%;*/
-	border-style: solid;
-	border-color: red;
-}
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+	border: 4px solid aqua;}

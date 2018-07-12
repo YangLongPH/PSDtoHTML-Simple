@@ -9,35 +9,36 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <script src="psd_29052018.js"></script>
 </head>
 <body>
     <div id="Header">
         <div class="HeaderMenu">
-            <ul>
+            <ul class="HeaderUl">
                 <div class="LeftHeaderMenu">
-                    <li>
-                        <a class="font-pacifico" href="#brandi">Brandi</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" href="#brandi" style="font-family: Pacifico;font-size: 28px;">Brandi</a>
                     </li>
-                    <li>
-                        <a style="opacity: 0.3;margin-top: 19px" href="#tag">I'm your tag line</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" style="opacity: 0.3;margin-top: 15px;border-left: 1px solid #ffffff;line-height: 1px" href="#tag">I'm your tag line</a>
                     </li>
                 </div>
                 <div class="RightHeaderMenu">
-                    <li>
-                    <a href="#Home">Home</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" href="#Home">Home</a>
                     </li>
-                    <li>
-                        <a href="#Features">Features</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" href="#Features">Features</a>
                     </li>
-                    <li>
-                        <a href="#Works">Works</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" href="#Works">Works</a>
                     </li>
-                    <li>
-                        <a href="#Team">Team</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" href="#Team">Team</a>
                     </li>
-                    <li>
-                        <a href="#Contact">Contact</a>
+                    <li class="HeaderLi">
+                        <a class="HeaderA" href="#Contact">Contact</a>
                     </li>
                 </div>
                 
@@ -47,28 +48,9 @@
             <span class="HeaderText1">
                 <span>Meet </span><strong>Brandi!</strong>
             </span><br>
-            <span class="HeaderText2">/creative </span><span class="HeaderText2-1">one page template.</span><br>
-            <canvas id="Canvas1" width="40" height="20"">
-            </canvas>
-            <script>
-                var c = document.getElementById("Canvas1");
-                var ctx = c.getContext("2d");
-                ctx.moveTo(0,13);
-                ctx.lineTo(20,13);
-                ctx.strokeStyle = '#0b956b';
-                ctx.stroke();
-            </script>
+            <span class="HeaderText2">/creative </span>
+            <span class="HeaderText2-1">one page template.</span><br>
             <span class="HeaderText3">We are a team of professionals</span>
-            <canvas id="Canvas2" width="40" height="20"">
-            </canvas>
-            <script>
-                var c = document.getElementById("Canvas2");
-                var ctx = c.getContext("2d");
-                ctx.moveTo(20,13);
-                ctx.lineTo(40,13);
-                ctx.strokeStyle = '#0b956b';
-                ctx.stroke();
-            </script>
             <br>
         </div><br>
         <span class="SocialNetwork">
@@ -81,9 +63,9 @@
     <div id="Features">
         <div class="FeaturesText">
             <span>FEATURES</span><br>
-            <span class="Hype" style="float: left;margin-left: 540px">_______</span>
+            <span class="HypeLeft">_______</span>
             <i class="far fa-heart" style="line-height: 60px;color: black;opacity: 0.2;font-size: 20px"></i>
-            <span class="Hype" style="float: right;margin-right: 540px">_______</span>
+            <span class="HypeRight">_______</span>
         </div>
         <div class="FeaturesSections">
             <div class="FeaturesSection">
@@ -115,28 +97,171 @@
         <div class="WorkSection">
             <div class="FeaturesText">
                 <span>WORKS</span><br>
-                <span class="Hype" style="float: left;margin-left: 540px">_______</span>
+                <span class="HypeLeft">_______</span>
                 <i class="far fa-heart" style="line-height: 60px;color: black;opacity: 0.2;font-size: 20px"></i>
-                <span class="Hype" style="float: right;margin-right: 540px">_______</span>
+                <span class="HypeRight">_______</span>
                 <br>
                 <span class="WorkText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</span>
             </div>
         </div>
         <div class="WorkFilter">
-            
+            <ul class="WorkUl">
+                <li class="WorkLi">
+                    <a class="WorkA" href="#All" style="background-color: #0eb493;border-radius: 8px;color: white">All</a>
+                </li>
+                <li class="WorkLi">
+                    <a class="WorkA" href="#Branding">Branding</a>
+                </li>
+                <li class="WorkLi">
+                    <a class="WorkA" href="#Web">Web</a>
+                </li>
+                <li class="WorkLi">
+                    <a class="WorkA" href="#Logo Design">Logo Design</a>
+                </li>
+                <li class="WorkLi">
+                    <a class="WorkA" href="#PhotoGraphy">PhotoGraphy</a>
+                </li>
+            </ul>
         </div>
         <div class="WorkHover">
             
         </div>
         <div class="WorkImgs">
-
+            <div class="WorkImgTable">
+                <div class="WorkImgRow">
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-8.png);">
+                    </div>
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-7.png);">
+                    </div>
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-6.png);">
+                    </div>
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-5.png);">
+                    </div>
+                </div>
+                <div class="WorkImgRow">
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-4.png);">
+                    </div>
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-3.png);">
+                    </div>
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-2.png);">
+                    </div>
+                    <div class="WorkImgCell" style="background-image: url(Documents/Work-Imgs/psd29052018-WorkImgs-1.png);">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="Team">
-        "Team"
+        <div class="TeamSection">
+            <div class="TeamsText"   >
+                <span>MEET OUR TEAM</span><br>
+                <span class="HypeLeft">_______</span>
+                <i class="far fa-heart" style="line-height: 60px;color: black;opacity: 0.2;font-size: 20px"></i>
+                <span class="HypeRight">_______</span>
+                <br>
+                <span class="TeamText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</span>
+            </div>
+        </div>
+        <div class="TeamHover">
+            
+        </div>
+        <div class="TeamImgs">
+            <div class="TeamImgTable">
+                <div class="TeamImgRow">
+                    <div class="TeamImgCell" style="background-image: url(Documents/Team-Imgs/psd29052018-Team-Imgs-4.png);">
+                    </div>
+                    <div class="TeamImgCell" style="background-image: url(Documents/Team-Imgs/psd29052018-Team-Imgs-3.png);">
+                    </div>
+                    <div class="TeamImgCell" style="background-image: url(Documents/Team-Imgs/psd29052018-Team-Imgs-2.png);">
+                    </div>
+                    <div class="TeamImgCell" style="background-image: url(Documents/Team-Imgs/psd29052018-Team-Imgs-1.png);">
+                    </div>
+                </div>
+                <div class="TeamImgRow">
+                    <div class="TeamImgCell">
+                        <span class="TeamName">John Filmr Doe</span><br>
+                        <span class="TeamJob">Managing Director</span>
+                    </div>
+                    <div class="TeamImgCell">
+                        <span class="TeamName">Chystine Hineu</span><br>
+                        <span class="TeamJob">Lead Designer</span>
+                    </div>
+                    <div class="TeamImgCell">
+                        <span class="TeamName">Martin Matrone</span><br>
+                        <span class="TeamJob">Lead Developer</span>
+                    </div>
+                    <div class="TeamImgCell">
+                        <span class="TeamName">Steve Flaulkin</span><br>
+                        <span class="TeamJob">Sr. UI Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="TeamDot">
+            <span class="Circle" style="background-color: black"> </span>
+            <span class="Circle"> </span>
+            <span class="Circle"> </span>
+        </div>
     </div>
     <div id="FunFacts">
-        "FunFacts"
+        <div class="FunFactsOpacity">
+            <div class="TeamSection">
+                <div class="TeamsText"   >
+                    <span>SOME FUNT FACTS</span><br>
+                    <span class="HypeLeft" style="color: white">_______</span>
+                    <i class="far fa-heart" style="line-height: 60px;color: white;opacity: 1;font-size: 20px"></i>
+                    <span class="HypeRight" style="color: white">_______</span>
+                    <br>
+                </div>
+            </div>
+            <div class="FunFactSection">
+                <div class="FunFactTable">
+                    <div class="FunFactRow">
+                        <div class="FunFactCell">
+                            <div class="FunFactIcon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="FunFactCell">
+                            <div class="FunFactIcon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            
+                        </div>
+                        <div class="FunFactCell">
+                            <div class="FunFactIcon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            
+                        </div>
+                        <div class="FunFactCell">
+                            <div class="FunFactIcon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="FunFactRow">
+                        <div class="FunFactCell">
+                            <span class="FunFactNumber">3200</span><br>
+                            <span class="FunFactNameIcon">HOURS OF WORK</span>
+                        </div>
+                        <div class="FunFactCell">
+                            <span class="FunFactNumber">120</span><br>
+                            <span class="FunFactNameIcon">SATISFIED CLINETS</span>
+                        </div>
+                        <div class="FunFactCell">
+                            <span class="FunFactNumber">360</span><br>
+                            <span class="FunFactNameIcon">PROJECTS DELIVERED</span>
+                        </div>
+                        <div class="FunFactCell">
+                            <span class="FunFactNumber">42</span><br>
+                            <span class="FunFactNameIcon">AWARDS WON</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="LDiscuss">
         "LDiscuss"
