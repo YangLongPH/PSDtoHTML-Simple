@@ -1,4 +1,4 @@
 cd ..
 git add *
-git commit -m "add FunFacts"
+git commit -m "add Final"
 git push origin master
